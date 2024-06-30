@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Azienda</title>
+   
+  </head>
+  <body>
+    
+    <div th:if="${azienda}">
+    <h1 th:text="${azienda.nome}"> Titolo film</h1>
+       
+        
+    </div>
+    <div th:unless="${azienda}">Non esiste</div>
+  </body>
+</html>
